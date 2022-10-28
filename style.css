@@ -1,0 +1,125 @@
+/*body*/
+body {
+    margin:0;
+    padding:0;
+}
+
+.container {
+    width:1440px;
+}
+
+.logo {
+    align-items: center;
+    height: 42px;
+
+}
+
+/*header*/
+header {
+    position: absolute;
+    z-index: 200;
+    margin: 18px 4px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+
+
+.dws-menu ul,
+.dws-menu ol {
+    list-style: none;
+}
+
+.dws-menu > ul {
+    display: flex;
+    justify-content: center;
+}
+
+.dws-menu > ul li a {
+    display: block;
+    padding: 15px 15px 15px 15px;
+    text-decoration: none;
+    color: #678C92;
+    font-size: 16px;
+}
+
+
+
+button {background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
+border-radius: 5px;
+height: 42px;
+padding: 10px 25px;;
+}
+
+/*main page*/
+
+main {
+    position: relative;
+    z-index: 100;
+}
+
+.container-title {
+    display: flex;
+    align-items: center;
+    padding-top: 57px;
+    background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+}
+
+.white { 
+    background: #C6DBFF;
+    border-radius: 5px;
+}
+
+.top {
+    
+    padding: 6px;
+}
+
+.bottom {
+    
+    padding: 6px;
+}
+
+.vertical-section {
+    padding: 30px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 630.5px;
+    height: 629.68px;
+}
+/**/
+
+.Container-execution {
+    background: #F4F7FF;
+}
+
+.container-instagram {
+    display:flex;
+}
+
+.photos-insta {
+    display: flex;
+    flex-direction: column;
+    padding: 4px;
+    width: 1024px;
+    height: 576px;
+}
+
+
+/**/
