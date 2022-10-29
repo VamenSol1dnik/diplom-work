@@ -48,6 +48,45 @@ header {
     font-size: 16px;
 }
 
+/*fonts*/
+
+h1 {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 64px;
+    color: #486A6F;
+}
+
+h2 {
+font-family: 'Noto Sans';
+font-style: normal;
+font-size: 36px;
+color: #486A6F;
+}
+
+h3{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size:24px;
+    color: #486A6F;
+}
+
+h4 {
+    text-align: center;
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-size: 16px;
+    color: #5BCCDE;
+}
+
+p{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    color: #678C92;
+    font-size: 16px;
+}
+
+
 
 
 button {background: linear-gradient(104.26deg, rgba(67, 151, 164, 0.2) 0.88%, rgba(91, 204, 222, 0.2) 99.89%), #4397A4;
@@ -66,6 +105,7 @@ main {
 .container-title {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-top: 57px;
     background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
 }
@@ -103,14 +143,28 @@ main {
     width: 630.5px;
     height: 629.68px;
 }
-/**/
+
+
+/*execution*/
 
 .Container-execution {
     background: #F4F7FF;
 }
 
+/*insta-block*/
+
 .container-instagram {
     display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .photos-insta {
