@@ -7,6 +7,7 @@
 
 
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./fonts">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200&display=swap" rel="stylesheet">
@@ -178,21 +179,28 @@
 
                     <div class="contacts-info">
                         <div class="tel">
-                            <img src="./imgs/Icon.png" alt="0">
-                                <h5>Tel</h5>
-                            <a href="tel:708-790-0000">708-790-0000</a>
+                            <img src="./imgs/tel.png" alt="0" width="80" height="80">
+                                <div class="info">
+                                    <h5>Tel</h5>
+                                    <a href="tel:708-790-0000">708-790-0000</a>
+                                </div>
                         </div>
-                        <div class="email">
-                            <img src="./imgs/Icon2.png" alt="0">
-                            <h5>Email</h5>
-                            <a href="mailto:sales@buildit.site">sales@buildit.site</a>
+                        <div class="e-mail">
+                            <img src="./imgs/email.png" alt="0" width="80" height="80">
+                                <div class="info">
+                                    <h5>Email</h5>
+                                    <a href="mailto:sales@buildit.site">sales@buildit.site</a>
+                                </div>
                         </div>
                         <div class="office">
-                            <img src="./imgs/Icon3.png" alt="0">
-                            <h5>Office</h5>
-                            <a href="address:60 Manor Station St.
-                            Fairport, NY 14450">60 Manor Station St. <br>
-                            Fairport, NY 14450</a>
+                            <img src="./imgs/email.png" alt="0" width="80" height="80">
+                            <div class="info">
+                                    <h5>Office</h5>
+                                
+                                    <a href="address:60 Manor Station St.
+                                    Fairport, NY 14450">60 Manor Station St. <br>
+                                    Fairport, NY 14450</a>
+                                </div>
                         </div>
                     </div>
                 </div>
@@ -202,18 +210,24 @@
                 <div class="form-bar">
                     <form action="./send.php">
                         <fieldset>
-                            <div class="name">
-                                <label>
-                                    <p>Name</p>
-                                    <input type="text" class="label">
-                                </label>
+                            <div class="personality">
+
+                                <div class="name">
+                                    <label>
+                                        <p>Name</p>
+                                        <input type="text" class="label-per">
+                                    </label>
+                                </div>
+
+                                <div class="email">
+                                    <label>
+                                       <p>Email</p>
+                                       <input type="email" class="label-per">
+                                    </label>
+                                </div>
+
                             </div>
-                            <div class="email">
-                                <label>
-                                    <p>Email</p>
-                                    <input type="email" class="label">
-                                </label>
-                            </div>
+
                             <div class="subject">
                                 <label>
                                     <p>Subject</p>
@@ -237,10 +251,13 @@
 
     <footer>
         <div class="container">
+            <div class="footer">
+            
+                <div class="foot-main"></div>
 
-        <div class="container_top"></div>
-        
+                <div class="foot-table"></div>
 
+            </div>
         </div>
     </footer>
 </body>
